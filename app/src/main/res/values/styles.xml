@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomSpinnerTextStyle" parent="Widget.AppCompat.TextView.SpinnerItem">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="CustomDatePickerDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <!-- Set your desired color for the calendar -->
+        <item name="colorAccent">@color/light_purple</item>
+    </style>
+
+
+
+</resources>

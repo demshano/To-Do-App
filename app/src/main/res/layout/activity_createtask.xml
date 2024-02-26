@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/datePickerInput"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="48dp"-->
+    <!--        android:focusable="false"-->
+    <!--        android:hint="Select Date"-->
+    <!--        android:onClick="showDatePickerDialog" />-->
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/back_button"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/backButton"
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/c1"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/c2"
+        android:textStyle="bold"
+        android:textColor="@color/gray"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="30dp"
+        />
+
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="58dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="@string/c2_hint"
+        android:paddingLeft="25dp"
+        android:id="@+id/title"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:inputType="text"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/c3"
+        android:textStyle="bold"
+        android:textColor="@color/gray"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="30dp"
+
+
+        />
+
+
+    <EditText
+        android:id="@+id/datePickerInput"
+        android:layout_width="320dp"
+        android:layout_height="58dp"
+        android:inputType="text"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_background"
+        android:drawableEnd="@drawable/baseline_calendar_month_24"
+        android:drawablePadding="8dp"
+        android:hint="@string/c3_hint"
+        android:onClick="showDatePickerDialog"
+        android:padding="8dp"
+        android:paddingStart="25dp"
+        android:textColor="@color/black"
+        app:endIconMode="custom"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/c4"
+        android:textStyle="bold"
+        android:textColor="@color/gray"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="30dp"
+        />
+
+    <!--    <EditText-->
+    <!--        android:layout_width="320dp"-->
+    <!--        android:layout_height="58dp"-->
+    <!--        android:background="@drawable/edit_text_background"-->
+    <!--        android:hint="@string/c4_hint"-->
+    <!--        android:paddingLeft="25dp"-->
+
+    <!--        />-->
+
+    <Spinner
+        android:id="@+id/dropdownMenu"
+        android:layout_width="320dp"
+        android:layout_height="58dp"
+        android:background="@drawable/custom_spinner_background"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:paddingStart="25dp"
+
+
+
+
+
+        />
+
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="58dp"
+        android:text="@string/btn_create"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:id="@+id/createBtn"
+        android:background="@drawable/edit_button_background"
+        android:textSize="16dp"
+
+
+        />
+
+
+</LinearLayout>

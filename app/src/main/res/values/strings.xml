@@ -1,0 +1,55 @@
+<resources>
+    <!--    front page-->
+    <string name="app_name">To Do List</string>
+    <string name="front_1">Manage Your Task</string>
+    <string name="front_2">With Us</string>
+    <string name="front_3">Lorem ipsum dolor sit amet, consectetur adipiscing elit</string>
+    <string name="front_4">Lorem ipsum dolor sit amet</string>
+
+    <!--    login page-->
+    <string name="login">Login</string>
+    <string name="login_text1">Please Sign-in to your account and start the</string>
+    <string name="login_text2">Adventure</string>
+    <string name="email">Email</string>
+    <string name="email_hint">user@taskwithus.com</string>
+    <string name="password">Password</string>
+    <string name="password_hint">.......</string>
+    <string name="btn_login">Login</string>
+
+    <!--    create task page-->
+
+    <string name="c1">Create a new task</string>
+    <string name="c2">Title</string>
+    <string name="c2_hint">Enter title</string>
+    <string name="c3">Date</string>
+    <string name="c3_hint">Mon, 19 Jan 2023</string>
+    <string name="c4">Priority</string>
+    <string name="c4_hint">Select priority</string>
+    <string name="btn_create">Create</string>
+    <string name="plus_mark">+</string>
+
+    <!--    drop down menu-->
+
+    <string-array name="menu_items_array">
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+        <!-- Add more items as needed -->
+    </string-array>
+
+    <!--    task box-->
+    <string name="task_box_name">Task name</string>
+    <string name="task_box_date">date</string>
+
+    <!--  profile box  -->
+
+    <string name="morning">Morning!</string>
+    <string name="user_name">Alice Johnstan</string>
+    <string name="tasks_name">Tasks</string>
+    <string name="priority_label">Priority</string>
+    <string name="date_lowercase">date</string>
+    <string name="todo">Todo</string>
+    <string name="complete">Complete</string>
+
+
+</resources>
